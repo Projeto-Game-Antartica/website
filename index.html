@@ -1,1 +1,200 @@
-Projeto Antartica
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <!-- <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors"> -->
+        <!-- <meta name="generator" content="Jekyll v3.8.6"> -->
+        <title>Expedição Antártica</title>
+
+        <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/cover/"> -->
+
+        <!-- Bootstrap core CSS -->
+        <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- Favicons -->
+        <!-- <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180"> -->
+        <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
+        <!-- <link rel="manifest" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/manifest.json"> -->
+        <!-- <link rel="mask-icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c"> -->
+        <!-- <link rel="icon" href="https://getbootstrap.com/docs/4.4/assets/img/favicons/favicon.ico"> -->
+        <!-- <meta name="msapplication-config" content="https://getbootstrap.com/docs/4.4/assets/img/favicons/browserconfig.xml"> -->
+        <!-- <meta name="theme-color" content="#563d7c"> -->
+
+
+        <style>
+            /* .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+                }
+            } */
+
+            html {
+                height: 100%;
+                width:100%;
+            }
+
+            body {
+                height: 100%;
+                /* width:100%; */
+                background-color: lightblue;
+                background-image: url("images/background.jpg");
+                background-size: cover;
+                /* background-size:cover; */
+                /* background-repeat: no-repeat; */
+                /* background-position: center top; */
+            }
+
+            header {
+                background-color: blue;
+                background-image: url("images/topo.png");
+                
+                height: 200px;
+                /* background-repeat: no-repeat; */
+                /* background-position: right top; */
+                background-size:cover;
+                border-bottom: 2px solid #9292ff;
+            } 
+
+            #content {
+                height:calc(100% - 200px);
+            }
+
+            #personagem {
+                float: left;
+                width: 30%;
+                height: 100%;
+            }
+
+            #info {
+                /* background-color: yellow; */
+                float: right;
+                width: 70%;
+                height: 100%;
+                padding: 10px;
+            }
+
+            #info-desc {
+                height: 100%;
+                width:100%;
+                background-color: rgba(255,255,255,0.5);
+                border-radius: 25px;
+
+                text-align: center;
+            }
+
+            /* main {
+                background-color: blue;
+                background-image: url("images/background.jpg");
+                background-size: auto 100%;
+                height: 500px;
+            } */
+
+            .antartica-button {
+                background-color: rgba(0,0,255,0.8);
+                padding: 10px;
+            }
+
+            a.deco-none {
+                color:#fff !important;
+                text-decoration:none;
+
+            }
+
+            .bg-menu:hover {
+                background-color:#0079C1;
+                color:#FFFFFF;
+            }
+
+            .clickable {
+                cursor:pointer; 
+            }
+
+            #logo {
+                height: 100%;
+                float: left;
+                width:70%;
+            }
+
+            #nav {
+                height: 100%;
+                width:30%;
+                float: right;
+                text-align: right;
+                padding: 50px;
+            }
+
+            /* nav {
+                height: 100%;
+                background-color: rgba(0,0,0,0.3);
+            } */
+
+        </style>
+        <!-- Custom styles for this template -->
+        <!-- <link href="https://getbootstrap.com/docs/4.4/examples/cover/cover.css" rel="stylesheet"> -->
+    </head>
+    <!-- <body class="text-center">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="masthead mb-auto">
+                <div class="inner">
+                    <h3 class="masthead-brand">Antártica</h3>
+                    <nav class="nav nav-masthead justify-content-center">
+                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </nav>
+                </div>
+            </header>
+
+            <main role="main" class="inner cover">
+                <h1 class="cover-heading">Cover your page.</h1>
+                <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+                <p class="lead">
+                    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+                </p>
+            </main>
+
+            <footer class="mastfoot mt-auto">
+                <div class="inner">
+                    <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                </div>
+            </footer>
+        </div>
+    </body> -->
+    <body>
+        <header>
+            <div id="logo">
+                <img src="images/logo-medium.png" height="100%">
+            </div>
+            
+            <div id="nav">
+                <img src="images/logotipo-ufabc-abaixo.png" height="100%">
+                <img src="images/logo-aplicacao-horizontal-fundo-claro.jpg" height="100%">
+            </div>
+        </header>
+        <div id="content">
+            <div id="personagem"><img src="images/personagem.png" height="100%"></div>
+
+            <div id="info">
+                <div id="info-desc">
+                    <h1>Download</h1><br><br>
+                    <p><span class="antartica-button"><a class="deco-none" href="#">Versão 32 Bits</a></span></p><br>
+                    <p><span class="antartica-button"><a class="deco-none" href="#">Versão 64 Bits</a></span></p><br>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
